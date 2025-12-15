@@ -1,0 +1,157 @@
+# Quartus II/Altera Project Files
+# ================================
+
+# Quartus database directories
+db/
+incremental_db/
+
+# Output and compilation files
+output_files/
+*.rpt
+*.summary
+*.done
+*.smsg
+*.chg
+*.html
+*.eqn
+*.pin
+*.sof
+*.pof
+*.jdi
+*.sld
+*.qws
+*.qarlog
+*.qar
+
+# Simulation and waveform cache
+*.vwf.sft
+*.vwf.temp
+*.wlf
+*.vstf
+*.bak
+*.orig
+
+# Temporary and backup files
+*.bak
+*.BAK
+*~
+*.tmp
+*.temp
+*.orig
+*.old
+*.log
+*.txt.bak
+
+# C/C++ related (if using Nios II or similar)
+*.o
+*.obj
+*.elf
+*.exe
+*.out
+*.app
+*.map
+*.sym
+
+# Memory initialization file intermediates
+*.mif.bak
+*.hex.bak
+
+# Timing and netlist files
+*.vo
+*.vho
+*.sdo
+*.tao
+*.rdb
+*.cdb
+*.hdb
+*.kpt
+*.ddb
+*.sci
+*.hif
+*.logdb
+*.tmw_info
+*.stp
+*.ipinfo
+
+# Smart compilation and archive
+*.smart_action.txt
+*.db_info
+*.hier_info
+*.archive.qmsg
+*.archive.rpt
+
+# Generated HDL files
+*_generation_script*
+*.tdf
+mux_*.tdf
+
+# Project recovery files
+*.qpf.bak
+*.qsf.bak
+*.bdf.bak
+
+# Assignment and constraint backups
+*.qdf.bak
+*.sdc.bak
+
+# LaTeX compilation files (for reports)
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.lof
+report/*.lot
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+report/*.pdf
+report/*.dvi
+report/*.ps
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python (if using any scripts)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Keep important files
+!*.qpf
+!*.qsf
+!*.sdc
+!*.v
+!*.vhd
+!*.bdf
+!*.bsf
+!*.vwf
+!*.asm
+!*.qdf
+!README.md
+!.gitignore
+
+# Specifically ignore numbered database files
+*.cnf.cdb
+*.cnf.hdb
+
+# Quartus workspace
+*.qws
+
+# Generated documentation (keep source)
+report/*.pdf
