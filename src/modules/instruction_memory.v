@@ -10,7 +10,7 @@ module im(
 
     integer i;
     // initial begin
-    //     $readmemh("../../sim/machine_code.hex", mem, 0, 11); // Initialize the memory
+    //     $readmemh("../../sim/machine_code_sc.hex", mem, 0, 11); // Initialize the memory
 
     //     for (i = 12; i < 64; i = i + 1)
     //         mem[i] = 8'h00;
