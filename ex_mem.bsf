@@ -1,0 +1,120 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 64 64 240 776)
+	(text "ex_mem" (rect 5 0 52 14)(font "Arial" ))
+	(text "inst" (rect 8 160 28 174)(font "Arial" ))
+	(port
+		(pt 0 664)
+		(input)
+		(text "clk" (rect 0 0 15 14)(font "Arial" ))
+		(text "clk" (rect 21 659 36 673)(font "Arial" ))
+		(line (pt 0 664)(pt 16 664))
+	)
+	(port
+		(pt 0 72)
+		(input)
+		(text "mem_to_reg_x" (rect 0 0 83 14)(font "Arial" ))
+		(text "mem_to_reg_x" (rect 21 67 104 81)(font "Arial" ))
+		(line (pt 0 72)(pt 16 72))
+	)
+	(port
+		(pt 0 88)
+		(input)
+		(text "mem_write_x" (rect 0 0 76 14)(font "Arial" ))
+		(text "mem_write_x" (rect 21 83 97 97)(font "Arial" ))
+		(line (pt 0 88)(pt 16 88))
+	)
+	(port
+		(pt 0 120)
+		(input)
+		(text "reg_write_x" (rect 0 0 69 14)(font "Arial" ))
+		(text "reg_write_x" (rect 21 115 90 129)(font "Arial" ))
+		(line (pt 0 120)(pt 16 120))
+	)
+	(port
+		(pt 0 248)
+		(input)
+		(text "alu_result_x[15..0]" (rect 0 0 105 14)(font "Arial" ))
+		(text "alu_result_x[15..0]" (rect 21 243 126 257)(font "Arial" ))
+		(line (pt 0 248)(pt 16 248)(line_width 3))
+	)
+	(port
+		(pt 0 496)
+		(input)
+		(text "rdata2_x[15..0]" (rect 0 0 86 14)(font "Arial" ))
+		(text "rdata2_x[15..0]" (rect 21 491 107 505)(font "Arial" ))
+		(line (pt 0 496)(pt 16 496)(line_width 3))
+	)
+	(port
+		(pt 0 576)
+		(input)
+		(text "rd_x[2..0]" (rect 0 0 54 14)(font "Arial" ))
+		(text "rd_x[2..0]" (rect 21 571 75 585)(font "Arial" ))
+		(line (pt 0 576)(pt 16 576)(line_width 3))
+	)
+	(port
+		(pt 176 72)
+		(output)
+		(text "mem_to_reg_m" (rect -72 0 14 14)(font "Arial" ))
+		(text "mem_to_reg_m" (rect 83 67 169 81)(font "Arial" ))
+		(line (pt 176 72)(pt 160 72))
+	)
+	(port
+		(pt 176 88)
+		(output)
+		(text "mem_write_m" (rect -72 0 7 14)(font "Arial" ))
+		(text "mem_write_m" (rect 89 83 168 97)(font "Arial" ))
+		(line (pt 176 88)(pt 160 88))
+	)
+	(port
+		(pt 176 120)
+		(output)
+		(text "reg_write_m" (rect -72 0 -1 14)(font "Arial" ))
+		(text "reg_write_m" (rect 95 115 166 129)(font "Arial" ))
+		(line (pt 176 120)(pt 160 120))
+	)
+	(port
+		(pt 176 264)
+		(output)
+		(text "alu_result_m[15..0]" (rect -72 0 35 14)(font "Arial" ))
+		(text "alu_result_m[15..0]" (rect 65 259 172 273)(font "Arial" ))
+		(line (pt 176 264)(pt 160 264)(line_width 3))
+	)
+	(port
+		(pt 176 512)
+		(output)
+		(text "rdata2_m[15..0]" (rect -72 0 16 14)(font "Arial" ))
+		(text "rdata2_m[15..0]" (rect 81 507 169 521)(font "Arial" ))
+		(line (pt 176 512)(pt 160 512)(line_width 3))
+	)
+	(port
+		(pt 176 576)
+		(output)
+		(text "rd_m[2..0]" (rect -72 0 -16 14)(font "Arial" ))
+		(text "rd_m[2..0]" (rect 108 571 164 585)(font "Arial" ))
+		(line (pt 176 576)(pt 160 576)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 160 688))
+	)
+)
